@@ -1,7 +1,6 @@
 ---
 title: Shout Out to Wes Bos
 date: "2020-09-03"
-description: "A huge shout out ot Wes Bos for making learning programming fun."
 ---
 
 My ideas for this blog are still taking shape, but I know that I want to share who I'm learning from along with what I'm learning. One of the things I love about the web development community is that it's a community full of people who are committed to sharing what they know. There are so many resources out there for learning web development that it's hard to sift through them all.

@@ -17,7 +17,7 @@ const typography = new Typography({
         '500'
       ],
     },
-  ],
+  ]
 })
 
 // Hot reload typography in development.

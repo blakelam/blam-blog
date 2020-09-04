@@ -1,7 +1,6 @@
 ---
 title: Getting Started
 date: "2020-09-02"
-description: ""
 ---
 
 I'm not totally new to frontend web development, but I feel like I'm just getting started. The way we build for the web today is vastly different from the way we built when I was coding websites in HTML and CSS not that many years ago. You can make a strong argument these days that [frontend means full stack](https://increment.com/frontend/when-frontend-means-full-stack/).
