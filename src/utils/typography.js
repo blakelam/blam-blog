@@ -1,7 +1,24 @@
 import Typography from "typography"
-import stowLakeTheme from 'typography-theme-stow-lake'
 
-const typography = new Typography(stowLakeTheme)
+const typography = new Typography({
+  baseFontSize: '18px',
+  baseLineHeight: 1.7,
+  scaleRatio: 1.7,  
+  bodyFontFamily: ['Public Sans', 'Helvetica Neue', 'Segoe UI', 'Helvetica', 'Arial', 'sans-serif'],
+  headerWeight: 500,
+  headerColor: 'hsl(0,0%,0%,0.8)',
+  boldWeight: 500,
+  bodyWeight: 300,
+  googleFonts: [
+    {
+      name: 'PUblic Sans',
+      styles: [
+        '300',
+        '500'
+      ],
+    },
+  ],
+})
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {

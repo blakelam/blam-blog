@@ -4,7 +4,7 @@ import { Link, graphql } from "gatsby"
 import Bio from "../components/bio"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
+import { rhythm, scale } from "../utils/typography"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
@@ -21,14 +21,30 @@ const BlogIndex = ({ data, location }) => {
             <header>
               <h3
                 style={{
-                  marginBottom: rhythm(1 / 4),
+                  marginBottom: rhythm(1 / 4)
                 }}
               >
-                <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                <Link 
+                  style={{
+                    boxShadow: `none`,
+                    color: `inherit`,
+                    textDecoration: `none`
+                    }} 
+                    to={node.fields.slug}>
                   {title}
                 </Link>
               </h3>
-              <small>{node.frontmatter.date}</small>
+              <p
+            style={{
+              ...scale(-2 / 5),
+              color: 'hsl(0,0%,0%,0.5)',
+              display: `block`,
+              marginBottom: 0,
+              textTransform: 'uppercase'
+            }}
+          >
+            {node.frontmatter.date}
+          </p>
             </header>
             <section>
               <p

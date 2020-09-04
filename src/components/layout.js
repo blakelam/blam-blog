@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+import "./layout.css"
 
 import { rhythm, scale } from "../utils/typography"
 
@@ -11,15 +12,14 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h1
         style={{
-          ...scale(1.5),
           marginBottom: rhythm(1.5),
           marginTop: 0,
         }}
       >
         <Link
           style={{
-            boxShadow: `none`,
             color: `inherit`,
+            textDecoration: 'none'
           }}
           to={`/`}
         >
@@ -31,13 +31,13 @@ const Layout = ({ location, title, children }) => {
     header = (
       <h3
         style={{
-          marginTop: 0,
+          marginTop: 0
         }}
       >
         <Link
           style={{
-            boxShadow: `none`,
             color: `inherit`,
+            textDecoration: 'none'
           }}
           to={`/`}
         >
@@ -57,7 +57,11 @@ const Layout = ({ location, title, children }) => {
     >
       <header>{header}</header>
       <main>{children}</main>
-      <footer>
+      <footer
+        style={{
+          ...scale(0)
+        }}
+      >
         © {new Date().getFullYear()}, Built with
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>

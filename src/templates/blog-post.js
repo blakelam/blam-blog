@@ -29,9 +29,11 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           </h1>
           <p
             style={{
-              ...scale(-1 / 5),
+              ...scale(-2 / 5),
+              color: 'hsl(0,0%,0%,0.5)',
               display: `block`,
               marginBottom: rhythm(1),
+              textTransform: 'uppercase'
             }}
           >
             {post.frontmatter.date}
