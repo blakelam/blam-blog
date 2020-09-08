@@ -17,7 +17,12 @@ const typography = new Typography({
         '500'
       ],
     },
-  ]
+  ],
+  overrideStyles: ({ adjustFontSizeTo, rhythm }, options, styles) => ({
+    h2: {
+      marginBottom: '0.5rem',
+    },
+  })
 })
 
 // Hot reload typography in development.
