@@ -3,7 +3,7 @@ module.exports = {
     title: `Blake Lam`,
     author: {
       name: `Blake Lam`,
-      summary: `who's learning frontend development and sharing his journey.`,
+      summary: `who's learning web development and sharing his journey.`,
     },
     description: `A blog created by Blake Lam using Gatsby's starter blog.`,
     siteUrl: `https://blog.blakelam.com`,
