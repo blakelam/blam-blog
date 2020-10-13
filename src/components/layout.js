@@ -47,7 +47,6 @@ const Layout = ({ location, title, children }) => {
     )
   }
   return (
-    <>
     <div
       style={{
         marginLeft: `auto`,
@@ -67,11 +66,7 @@ const Layout = ({ location, title, children }) => {
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </footer>
-    </div>    
-    <!-- Fathom - beautiful, simple website analytics -->
-    <script src="https://cdn.usefathom.com/script.js" site="HARDEOUM" defer></script>
-    <!-- / Fathom -->
-    </>
+    </div>
   )
 }
 
