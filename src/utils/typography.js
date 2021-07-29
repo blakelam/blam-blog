@@ -11,7 +11,7 @@ const typography = new Typography({
   bodyWeight: 300,
   googleFonts: [
     {
-      name: 'PUblic Sans',
+      name: 'Public Sans',
       styles: [
         '300',
         '500'
